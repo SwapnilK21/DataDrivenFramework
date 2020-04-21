@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1110" started-at="2020-04-21T18:10:53 IST" finished-at="2020-04-21T18:10:54 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1110" started-at="2020-04-21T18:10:53 IST" finished-at="2020-04-21T18:10:54 IST">
+      <class name="tests.Test1">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:tests.Test1@210366b4]" name="test1" duration-ms="15" started-at="2020-04-21T18:10:54 IST" data-provider="dp" finished-at="2020-04-21T18:10:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Quantity=5000.0, Ref_ID=SK20200421_01, Price=125.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=IBM, Trade_Date=4/21/20, Commission =125.0, Commission_Type=Gross}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:tests.Test1@210366b4]" name="test1" duration-ms="2" started-at="2020-04-21T18:10:54 IST" data-provider="dp" finished-at="2020-04-21T18:10:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Quantity=8000.0, Ref_ID=SK20200421_02, Price=165.3, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=ctsh, Trade_Date=4/21/20, Commission =0.3, Commission_Type=Per_Share}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:tests.Test1@210366b4]" name="test1" duration-ms="1" started-at="2020-04-21T18:10:54 IST" data-provider="dp" finished-at="2020-04-21T18:10:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Quantity=3000.0, Ref_ID=SK20200421_03, Price=450.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=tsla, Trade_Date=4/21/20, Commission =0.5, Commission_Type=Per_Share}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:tests.Test1@210366b4]" name="test1" duration-ms="4" started-at="2020-04-21T18:10:54 IST" data-provider="dp" finished-at="2020-04-21T18:10:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Quantity=5000.0, Ref_ID=SK20200421_04, Price=125.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=aapl, Trade_Date=4/21/20, Commission =125.0, Commission_Type=Gross}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- tests.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
