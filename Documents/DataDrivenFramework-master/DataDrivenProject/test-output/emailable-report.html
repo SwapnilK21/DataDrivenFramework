@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -8,71 +8,14 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Page Object Model with Page Factories</th></tr>
-<tr><td><a href="#t0">Sign in Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,068</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Flight Search Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,263</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">2</th><th class="num">35,331</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,110</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Page Object Model with Page Factories</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sign in Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.SignInTest</td><td><a href="#m0">signInTest</a></td><td rowspan="1">1621513765588</td><td rowspan="1">18087</td></tr><tr><th colspan="4">Sign in Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.SignInTest</td><td><a href="#m1">signInTest</a></td><td rowspan="1">1621513765327</td><td rowspan="1">8</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Flight Search Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.FlightSearchTest</td><td><a href="#m2">flightSearchTest</a></td><td rowspan="1">1621513789803</td><td rowspan="1">10272</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.Test1</td><td><a href="#m0">test1</a></td><td rowspan="4">1587472854960</td><td rowspan="4">4</td></tr><tr class="passedeven"><td><a href="#m1">test1</a></td></tr><tr class="passedeven"><td><a href="#m2">test1</a></td></tr><tr class="passedeven"><td><a href="#m3">test1</a></td></tr></tbody>
 </table>
-<h2>Sign in Test</h2><h3 id="m0">testcases.SignInTest#signInTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Selenium@123, runmode=Y, username=java@way2automation.com}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Thu_May_20_17_59_44_IST_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Thu_May_20_17_59_44_IST_2021.jpg><img src=Thu_May_20_17_59_44_IST_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at base.Base.click(Base.java:79)
-	at pages.actions.TopNavigation.gotoSignIn(TopNavigation.java:25)
-	at testcases.SignInTest.signInTest(SignInTest.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#header-account-menu&quot;}
-  (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;josh-ThinkPad-L480&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-73-generic&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /tmp/.com.google.Chrome.Pn75pd}, goog:chromeOptions: {debuggerAddress: localhost:42199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e91dfecba3731c5d72e3986895813555
-*** Element info: {Using=css selector, value=#header-account-menu}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-	... 33 more
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.SignInTest#signInTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Selenium@123, runmode=N, username=trainer@way2automation.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test as the Run mode is NO
-	at testcases.SignInTest.signInTest(SignInTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Flight Search Test</h2><h3 id="m2">testcases.FlightSearchTest#flightSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{toDate=14/12/2017, fromDate=12/12/17, runmode=Y, toCity=Seattle, WA, United States (SEA-Seattle - Tacoma Intl.), noOfAdults=2.0, noOfChildern=2.0, fromCity=Delhi, India (DEL-Indira Gandhi Intl.)}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Click to see Screenshot<br/><a target="_blank" href=Thu_May_20_18_00_00_IST_2021.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Thu_May_20_18_00_00_IST_2021.jpg><img src=Thu_May_20_18_00_00_IST_2021.jpg height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Multiple failures (2):
-
-Failure 1 of 2:
-java.lang.AssertionError: expected [7] but found [6]
-	at errorcollectors.ErrorCollector.assertEquals(ErrorCollector.java:38)
-	at errorcollectors.ErrorCollector.verifyEquals(ErrorCollector.java:102)
-	at testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
-
-Failure 2 of 2:
-org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at base.Base.click(Base.java:79)
-	at pages.actions.HomePage.gotoFlights(HomePage.java:27)
-	at testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 59 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Quantity=5000.0, Ref_ID=SK20200421_04, Price=125.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=aapl, Trade_Date=4/21/20, Commission =125.0, Commission_Type=Gross}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Quantity=8000.0, Ref_ID=SK20200421_02, Price=165.3, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=ctsh, Trade_Date=4/21/20, Commission =0.3, Commission_Type=Per_Share}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Quantity=5000.0, Ref_ID=SK20200421_01, Price=125.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=IBM, Trade_Date=4/21/20, Commission =125.0, Commission_Type=Gross}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Quantity=3000.0, Ref_ID=SK20200421_03, Price=450.6, Broker=Cantor, Settlement_Date=4/23/20, Buy_Sell=Buy, Security=tsla, Trade_Date=4/21/20, Commission =0.5, Commission_Type=Per_Share}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
